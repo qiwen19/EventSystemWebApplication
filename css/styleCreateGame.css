@@ -1,0 +1,315 @@
+body{
+    background-color: black;
+    padding-top: 65px;
+}
+
+.row{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.white{
+    color: white !important;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.da-slide{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.navbar-custom {
+    background-color: black;
+    border-radius: 0;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    background-color: #AA0000;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #AA0000;
+}
+
+.navbar-custom .navbar-text {
+    color: #FFF;
+}
+
+.navbar-custom .navbar-toggle {
+    border-color: #AA0000;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #AA0000;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-facebook{
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-upload{
+    width: 200px;
+    height: 200px;
+}
+
+#da-slider{
+    border-style: none;
+}
+
+.mvp{
+    background-color: #272929;
+    position: relative;
+    color: white;
+    height: 100%;
+}
+
+.latestuser{
+    float: right;
+    background-color: #272929;
+    color: white;
+    height: 100%;
+}
+
+.col-md-12{
+    margin: 1em;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.left{
+    margin: 1em !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #961212; 
+ }
+
+.col-lg-12{
+    padding-top: 45px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+    float: left;
+}
+
+.profile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.socialmedia {
+    margin-top: 2em;
+}
+
+.panel {
+    border: 0;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.2)!important;
+    color: #fff; 
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.2)!important;
+    
+}
+
+.name{
+    margin: 1em;
+    font-size: 1em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.guild{
+    position: relative;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+td:hover{
+    background-color: grey !important;
+}
+
+td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.fa{
+    text-align: center;
+}
+
+.fa-check{
+    color: green;
+}
+
+.fa-times{
+    color: red;
+}
+/* Footer CSS */
+footer{
+    background-color: #800000;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+    font-family: Roboto;
+}
+
+footer .fa:hover{
+   color:#675f5f;
+}
+
+.logo{
+    color:#FFF;
+    font-weight:800;
+    font-size:30px;
+}
+
+.adress span , .contact span , .social span , .header-form{
+   color: white; 
+   font-weight: 800; 
+   padding-top:20px;
+   padding-bottom:20px; 
+   display: block;
+   text-transform: uppercase;
+   font-size: 13px;
+   letter-spacing: 3px;
+}
+ 
+.adress li p , .contact li a , .social li a{
+    color: white;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.adress, .contact , .social{
+    list-style: none;
+}
+
+.social li{
+    float:left;
+}
+
+.fa{
+    margin-right: 10px;
+    font-size:14px;
+}
+
+.fa-2x{
+    color: white;
+}
+
+.btn-search{
+    background: #484848;
+    border: none;
+    color: #FFF;
+    padding: 5px 15px;
+}
+
+.input-search{
+   border: none;
+   height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones & Tablets: */
+    body{
+        width: 100%;
+    }
+    .navlogo{
+        height: 2em;
+    }
+    
+    footer{
+        height: 100%;
+    }
+    
+    .profile{
+        text-align: center;
+    }
+}
+

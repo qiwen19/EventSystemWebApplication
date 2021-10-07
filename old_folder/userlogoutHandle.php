@@ -1,0 +1,15 @@
+<?php
+// Include FB config file
+require_once '../includes/db/fbconfig.php';
+
+// Remove access token from session
+unset($_SESSION['facebook_access_token']);
+
+// Remove user data from session
+unset($_SESSION['userData']);
+
+session_destroy(); 
+
+// Redirect to the homepage
+header("Location:../home.php");
+?>
